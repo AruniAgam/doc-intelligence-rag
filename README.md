@@ -33,18 +33,22 @@ A full-stack platform that lets users upload documents (PDF, DOCX, TXT) and ask 
 ### ✅ **1. Clone the Repository**
 
 git clone https://github.com/AruniAgam/doc-intelligence-rag.git
+
 cd document-intelligence-rag
 
 ### 2. Start the Backend (Django + DRF)
 cd document-intelligence-backend
 
 Create and activate virtual environment
+
 python -m venv env  
 
 source env/bin/activate 
+
 Use `.\env\Scripts\activate` on Windows
 
 Install dependencies:
+
 pip install -r requirements.txt
 
 Apply migrations and start server:
